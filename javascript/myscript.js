@@ -126,7 +126,7 @@ getclickf.addEventListener('click', function(){
 		scaleY: 1,
 		duration: 500
 	});
-	var heyCrush = document.querySelectorAll('.crush path');
+	var heyLouloute = document.querySelectorAll('.crush path');
 	var finalText = document.querySelector('.parse');
 	var theLetter = document.querySelector('.lathu');
 	theLetter.addEventListener('mouseenter', function() {
@@ -151,7 +151,7 @@ getclickf.addEventListener('click', function(){
 	charming(finalText);
 	theTime2= anime.timeline();
 	theTime2.add({
-		targets: heyCrush,
+		targets: heyLouloute,
 		strokeDashoffset: [anime.setDashoffset,0],
 		easing: 'easeOutSine',
 		delay: function(el, i) {
